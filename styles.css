@@ -1,10 +1,11 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(224, 190, 147);
+    position: relative;
 }
 
 
 .titel {
-    color: purple;
+    color: rgb(115, 128, 0);
     text-align: center;
     font-size: 70px;
 }
@@ -12,4 +13,46 @@ body {
 .bodyimage {
     width: 500px;
     height: auto;
+}
+
+.text1 {
+    color: rgb(115, 128, 0);
+    font-size: large;
+    font: weight 3000px;
+    text-decoration:dotted;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: medium;
+    color: brown;
+
+}
+
+h2{
+font-size: medium;
+color: brown;
+}
+
+.flexbox{
+    display:flex;
+    gap: 20px;
+}
+.flexbox{
+    display:flex;
+    position: relative;
+}
+
+#demo {
+    position: relative;
+}
+
+.flexbox2 {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #f9f7f6;
+    border: 2px solid #f80505;
+    z-index: 1;
 }
