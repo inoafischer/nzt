@@ -56,3 +56,17 @@ color: brown;
     border: 2px solid #f80505;
     z-index: 1;
 }
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    
+  }
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: rgb(0, 200, 255);}
+  }
